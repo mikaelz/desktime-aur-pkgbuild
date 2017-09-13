@@ -1,5 +1,5 @@
 pkgname=desktime
-pkgver=1.46
+pkgver=1.47
 pkgrel=0
 pkgdesc="Desktime client for Linux (beta)"
 arch=('i686' 'x86_64')
@@ -9,11 +9,11 @@ depends=(desktop-file-utils hicolor-icon-theme libappindicator-gtk2 libxss)
 install=$pkgname.install
 
 if [[ $CARCH == 'i686' ]]; then
-    source=("https://desktime.com/storage/updates/linux/beta/desktime-linux_1.46_i386.deb")
-    md5sums=('54f131beff04f96390c6466dc5c5cd3f')
+    source=("https://desktime.com/storage/updates/linux/beta/desktime-linux_1.47_i386.deb")
+    md5sums=('9dceea027779ae6869199ce8c2bd63a5')
 else
-    source=("https://desktime.com/storage/updates/linux/beta/desktime-linux_1.46_x64.deb")
-    md5sums=('9dd753e04151436068275fc93512712e')
+    source=("https://desktime.com/storage/updates/linux/beta/desktime-linux_1.47_x64.deb")
+    md5sums=('ba5aaf966a204e64789f8c1107f33061')
 fi
 
 prepare()
